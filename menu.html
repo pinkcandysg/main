@@ -13,7 +13,6 @@
           font-family: Arial, sans-serif;
               }
         p {
-          font-size: 18px;
           font-family: Arial, sans-serif;
         }
         body {
@@ -21,6 +20,8 @@
         }
         table {
           width: 100%;
+          border-collapse: collapse;
+          table-layout: fixed;
         }
         td{
           border: 1px solid white;
@@ -30,14 +31,17 @@
           valign="top";
           width: 50%;
         }
-
+        img {
+          width: 100%;
+          height: auto;
+        }
     </style>
     <h1>MENU</h1>
     <h5>*Not all items are available for delivery.</span></h5>
   </head>
   <body>
-    <div style="overflow-x:auto;">
-      <table>
+    <div>
+      <table class="table-fixed">
       <tbody>
         <tr align="center" valign="top">
           <td>
